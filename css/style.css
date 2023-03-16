@@ -1,0 +1,63 @@
+/* Regole generali */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    margin: 30px auto;
+}
+
+body {
+    font-family: 'Archivo';
+}
+
+img {
+    float: left;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+
+h1 {
+    text-align: center;
+    color: rgb(233, 34, 134);
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+/* Sezione floating cards */
+
+.row {
+    margin-top: 60px;
+}
+
+.col {
+    float: left;
+    width: calc((100%/3) - 20px);
+    text-align: center;
+    margin: 0 10px;
+    background-color: black;
+    box-shadow: 1px 1px 10px 2px rgb(187, 198, 202);
+}
+
+.col p,h3 {
+    text-align: left;
+    color: white;
+}
